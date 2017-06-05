@@ -3,7 +3,7 @@
 const Todo = () => {
 
     const parent = $('<div class="white-card"></div>'),
-        input = $('<input id="input-item" type="text" placeholder="ingresa la tarea">'),
+        input = $('<input id="input-item" type="text" placeholder="Ingresa la tarea">'),
         todoTitle = $('<p>To Do Items:</p>'),
         list = $('<div class="list"></div>'),
         hr = $('<hr>'),
