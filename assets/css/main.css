@@ -1,0 +1,53 @@
+body {
+    background-color: #e8e8e8;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #fb0;
+    padding: 8px;
+}
+
+header .container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.white-card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+    margin: 45px auto;
+    padding: 10px;
+}
+
+.check-box {
+    border: 1px solid gray;
+    display: inline-flex;
+    margin-right: 10px;
+    height: 10px;
+    width: 10px;
+}
+
+.unchecked {
+    color: black;
+    text-decoration: none;
+}
+
+.checked {
+    color: gray;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#input-item {
+    padding: 10px;
+    width: 95%;
+}
+
+.todo button {
+    float: right;
+}
